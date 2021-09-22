@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- CDN for animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- CDN for hover effect -->
+    <link
+      rel="stylesheet"
+      href="./asset/Hover-master/Hover-master/css/hover-min.css"
+    />
+    <!-- link for google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- this is external style sheet -->
+    <link rel="stylesheet" href="./css/contact.css" />
+    <!-- CDN for animation on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- top most div stats -->
+    <div class="top-div bg-light p-3 animate__animated animate__flash">
+      <div class="container d-flex justify-content-between">
+        <div class="align-self-center">
+          <div class="d-inline-block ms-3">
+            <h5 class="d-inline-block">
+              <i class="bi bi-telephone-fill text-success"></i>
+            </h5>
+            <span class="ms-2"><b>+91-9999999999</b></span>
+          </div>
+          <div class="d-inline-block ms-3">
+            <h5 class="d-inline-block">
+              <i class="bi bi-envelope-fill text-danger"></i>
+            </h5>
+            <span class="ms-2"><b>info@example.com</b> </span>
+          </div>
+        </div>
+        <button class="btn btn-warning rounded-pill">Apply now</button>
+      </div>
+    </div>
+    <!-- top most div end -->
+
+    <!-- offcanva starts -->
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Quick Links</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="dropdown mt-3">
+          <ul>
+            <li class="mt-3">
+              <i class="bi bi-house-door-fill text-info fs-3"></i>
+              <a href="" class="text-decoration-none text-dark fs-5 p-2"
+                >Home</a
+              >
+            </li>
+            <li class="mt-3">
+              <i class="bi bi-person-lines-fill text-danger fs-3"></i>
+              <a href="" class="text-decoration-none text-dark fs-5 p-2"
+                >About</a
+              >
+            </li>
+            <li class="mt-3">
+              <i class="bi bi-telephone-fill text-success fs-3"></i>
+              <a href="" class="text-decoration-none text-dark fs-5 p-2"
+                >Contact</a
+              >
+            </li>
+            <li class="mt-3">
+              <i class="bi bi-people-fill text-warning fs-3"></i>
+              <a href="" class="text-decoration-none text-dark fs-5 p-2"
+                >Team</a
+              >
+            </li>
+            <li class="mt-3">
+              <i class="bi bi-calendar-check-fill text-primary fs-3"></i>
+              <a href="" class="text-decoration-none text-dark fs-5 p-2"
+                >Events</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- offcanva end -->
+
+    <!-- navbar starts -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary shadow">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"><h3>Navbar</h3></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-margin">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item p-2 hvr-grow">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                ><h6>Home</h6></a
+              >
+            </li>
+            <li class="nav-item p-2 hvr-grow">
+              <a class="nav-link" href="#"><h6>About</h6></a>
+            </li>
+            <li class="nav-item p-2 hvr-grow">
+              <a class="nav-link" href="./contact.html"><h6>Contact</h6></a>
+            </li>
+            <li class="nav-item p-2 hvr-grow">
+              <a class="nav-link" href="#"><h6>Team</h6></a>
+            </li>
+            <li class="nav-item p-2 hvr-grow">
+              <a class="nav-link" href="#"><h6>Events</h6></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-warning" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- main body starts -->
+    <div id="container">
+      <div class="row mt-5 new-row1 mb-5">
+        <div class="col-md-4 offset-md-2 main-div1">
+          <div class="login">
+            <div class="content">
+              <h1 class="text-center">Log In</h1>
+              <div class="form-floating mb-3 mt-5">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mt-4">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="d-flex mt-3 justify-content-between">
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Check me out</label
+                  >
+                </div>
+                <div>Forgot password?</div>
+              </div>
+              <button class="btn btn-warning w-100 mt-5">LOG IN</button>
+              <div class="isDisplay">
+                <div class="text-center pt-1">OR</div>
+                <button
+                  class="btn btn-outline-success w-100 rounded-pill mt-2"
+                  id="register1"
+                >
+                  REGISTER
+                </button>
+              </div>
+              <div class="d-flex mt-2">
+                <hr width="115px" />
+                <div class="align-self-center ms-3 me-3">Or Connect With</div>
+                <hr width="115px" />
+              </div>
+              <div class="d-flex justify-content-evenly mt-3">
+                <div class="bg-primary social-media rounded-circle">
+                  <h4>
+                    <a href=""><i class="bi bi-facebook text-light"></i></a>
+                  </h4>
+                </div>
+                <div class="bg-info social-media rounded-circle">
+                  <h4>
+                    <a href=""><i class="bi bi-twitter text-light"></i></a>
+                  </h4>
+                </div>
+                <div class="bg-success social-media-linkedIn rounded-circle">
+                  <h4>
+                    <a href=""
+                      ><i class="bi bi-linkedin text-light rounded-circle"></i
+                    ></a>
+                  </h4>
+                </div>
+                <div class="bg-danger social-media rounded-circle">
+                  <h4>
+                    <a href=""><i class="bi bi-instagram text-light"></i></a>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- div2 starts -->
+
+        <div class="col-md-4 main-div2 front">
+          <!-- <div class="main-icon"><i class="bi bi-person-plus-fill"></i></div> -->
+          <img
+            src="./asset/images/download.png"
+            alt=""
+            class="img-fluid mt-5 ms-3"
+          />
+          <h1 class="text-center mt-3">Hello, friend!</h1>
+          <div class="mt-3">
+            <h6>Enter your personal details and start journey with us.</h6>
+          </div>
+          <div class="text-center mt-4">
+            <button class="btn btn-warning rounded-pill" id="register">
+              REGISTER
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- new row -->
+
+      <div class="row mt-5 new-row2 d-none">
+        <div class="col-md-4 offset-md-2 main-div3 back">
+          <!-- <div class="main-icon"><i class="bi bi-person-plus-fill"></i></div> -->
+          <img
+            src="./asset/images/download.png"
+            alt=""
+            class="img-fluid mt-5 ms-2"
+          />
+          <h1 class="text-center mt-3">Welcome Back!</h1>
+          <div class="mt-3">
+            <h6 class="text-center">
+              To keep connected with us please login with your personal info.
+            </h6>
+          </div>
+          <div class="text-center mt-4">
+            <button class="btn btn-warning rounded-pill" id="login">
+              LOGIN
+            </button>
+          </div>
+        </div>
+
+        <!-- div2 starts -->
+
+        <div class="col-md-4 main-div4">
+          <div class="register">
+            <div class="content">
+              <h1 class="text-center">Sign Up</h1>
+              <div class="d-flex justify-content-evenly mt-3">
+                <div class="bg-primary social-media rounded-circle">
+                  <h4>
+                    <a href=""><i class="bi bi-facebook text-light"></i></a>
+                  </h4>
+                </div>
+                <div class="bg-info social-media rounded-circle">
+                  <h4>
+                    <a href=""><i class="bi bi-twitter text-light"></i></a>
+                  </h4>
+                </div>
+                <div class="bg-success social-media-linkedIn rounded-circle">
+                  <h4>
+                    <a href=""
+                      ><i class="bi bi-linkedin text-light rounded-circle"></i
+                    ></a>
+                  </h4>
+                </div>
+                <div class="bg-danger social-media rounded-circle">
+                  <h4>
+                    <a href=""><i class="bi bi-instagram text-light"></i></a>
+                  </h4>
+                </div>
+              </div>
+              <div class="d-flex mt-2">
+                <hr width="170px" />
+                <div class="align-self-center ms-3 me-3">Or</div>
+                <hr width="170px" />
+              </div>
+              <div class="form-floating mb-3 mt-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name"
+                />
+                <label for="floatingInput">Name</label>
+              </div>
+              <div class="form-floating mb-3 mt-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="d-flex mt-2 justify-content-between">
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >I accept terms</label
+                  >
+                </div>
+              </div>
+              <button
+                class="btn btn-warning w-100 mt-3 rounded-pill"
+                id="register"
+              >
+                REGISTER
+              </button>
+              <div class="isDisplay">
+                <div class="text-center pt-1">OR</div>
+                <button
+                  class="btn btn-outline-success w-100 rounded-pill mt-2"
+                  id="login1"
+                >
+                  LOGIN
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/contact.js"></script>
+    <!-- main body ends -->
+
+    <!-- footer starts -->
+    <footer class="container bg-light p-5">
+      <div class="row">
+        <div class="col-md-4 mt-5">
+          <h4>Contact Us</h4>
+          <div class="mt-4">
+            <i class="bi bi-geo-alt-fill fs-5 text-primary me-2"></i>
+            <h6 class="d-inline">
+              Estate Business #32841 block, #221DRS Real estate business
+              building, UK.
+            </h6>
+          </div>
+          <div class="mt-2">
+            <i class="bi bi-telephone-fill text-success fs-5 me-2"></i>
+            <h6 class="d-inline">+91-9999999999</h6>
+          </div>
+          <div class="mt-2">
+            <i class="bi bi-envelope-fill text-danger fs-5 me-2"></i>
+            <h6 class="d-inline">info@example.com</h6>
+          </div>
+        </div>
+        <div class="col-md-4 mt-5">
+          <h4>Featured Links</h4>
+          <div class="mt-4">
+            <h6 class="mt-3">Gradulation</h6>
+            <h6 class="mt-3">Admission</h6>
+            <h6 class="mt-3">Book Stores</h6>
+            <h6 class="mt-3">International</h6>
+            <h6 class="mt-3">Courses</h6>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-5">
+          <h4>Quick Links</h4>
+          <div class="mt-4">
+            <h6 class="mt-3">
+              <a href="" class="text-decoration-none text-dark">Home</a>
+            </h6>
+            <h6 class="mt-3">
+              <a href="" class="text-decoration-none text-dark">About</a>
+            </h6>
+            <h6 class="mt-3">
+              <a href="" class="text-decoration-none text-dark">Contact</a>
+            </h6>
+            <h6 class="mt-3">
+              <a href="" class="text-decoration-none text-dark">Team</a>
+            </h6>
+            <h6 class="mt-3">
+              <a href="" class="text-decoration-none text-dark">Events</a>
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-4 offset-md-4 mb-4">
+          <div class="mt-5 d-flex justify-content-around">
+            <div>
+              <h3 class="shadow rounded-circle p-2">
+                <a href=""><i class="bi bi-facebook text-primary"></i></a>
+              </h3>
+            </div>
+            <div>
+              <h3 class="shadow rounded-circle p-2">
+                <a href=""><i class="bi bi-twitter text-info"></i></a>
+              </h3>
+            </div>
+            <div>
+              <h3 class="shadow rounded-circle p-2">
+                <a href=""><i class="bi bi-instagram text-danger"></i></a>
+              </h3>
+            </div>
+            <div>
+              <h3 class="shadow rounded-circle p-2">
+                <a href=""><i class="bi bi-linkedin text-warning"></i></a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
