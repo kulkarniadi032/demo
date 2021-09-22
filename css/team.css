@@ -1,0 +1,12 @@
+.navbar-margin {
+  margin-left: 190px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.text-on-image {
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 800;
+}
